@@ -2,10 +2,10 @@
 #  Original code found at: https://aws.amazon.com/blogs/iot/integrating-iot-data-with-your-data-lake-with-new-aws-iot-analytics-features/
 #  Changes: changed iterations to 3, refined random algorithm, eliminated superflous variables.
 
-mqtttopic='<Insert-Your-IoT-Topic-Here>'
+mqtttopic='iota'
 iterations=10
 wait=3
-region='<Insert-Your-AWS-Test-Region-Here>'
+region='us-east-1'
 profile='default'
 
 for (( i = 1; i <=$iterations; i++)) {
